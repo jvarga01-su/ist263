@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="uft-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, intitial-scale=1.0">
+        <title>Form Example</title>
+</head>
+<body>
+    <h1>Food Order Form</h1>
+    <form method="post" action="">
+        <label for="fullname">Name:</label>
+        <input type ="text" id="fullname" name="fullname"><br>
+        <label for="specialintructions">Special Intructions:</label>
+        <textarea id="specialintructions" name="specialinstructions"></textarea><br>
+        <label for="delivery">Delivery</label>
+        <input type="radio" id="delivery" name="deliverypickup" value="delivery">
+        <label for="pickup">Pickup</label>
+        <input type="radio" id="pickup" name="deliverypickup" value="pickup" checked><br>
+        <label for="platic">Do you need utensils?</label>
+        <input type="checkbox" id="plastic" name="plastic" value="yes"><br>
+        <label for="region">What region?</label>
+        <select id="region" name="region">
+            <option value="westcott">Westcott</option>
+            <opion value="downtown">Downtown</opion>
+            <option value="eastwood">Eastwood</option>
+            <option value="oak street">Oak Street</option>
+        </select><br>
+
+        <input type="submit" value="send my form">
+
+    </form>
+</body>
+</html>
