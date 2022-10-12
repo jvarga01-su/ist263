@@ -1,0 +1,11 @@
+body {
+    background-image: url("../Images/Ottoo.png");
+    background-position: center;
+}
+
+ .orangemen {
+    background-color: #771d89;
+    border: 2px solid #ff000f;
+    padding: 10px
+
+}
