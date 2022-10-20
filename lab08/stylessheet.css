@@ -1,0 +1,31 @@
+ body {
+    background-color: #FFFFFF;
+}
+
+a:visited{
+    color: #f00;
+}
+
+a:hover { color:black;
+}
+
+a {
+    color: #066618;
+}
+
+h1, h2, h3,h4 {color:#066618;}
+
+nav {
+    background-color: #9bdda7;
+}
+
+nav a {color: #000000;}
+
+nav a:hover {background-color: #004e047f;}
+
+nav {
+    padding:10px;
+    border:solid #066618;
+}
+
+nav {margin-bottom: 30px}
