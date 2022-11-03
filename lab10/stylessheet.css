@@ -58,6 +58,10 @@ nav {margin-bottom: 30px}
         display:flex;
         justify-content: space-between;
     }
+    .row2{
+        display:flex;
+        justify-content: space-between;
+    }
 .ball{
     margin: 5em;
 }
@@ -78,11 +82,4 @@ nav {margin-bottom: 30px}
     justify-content: center;
 }
 
-@media screen {
-    min-width: 600px;
-}
-
-nav span {
-    size: 100%;
-    display: none;
-}
+@media only screen and (max-width: 600px)
