@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>skills</title>
+        <style>
+            .title{
+                justify-content: center;
+            }
+            .sen{
+                text-align: center;
+            }
+            .row1{
+                flex-wrap: wrap;
+            }
+            .skills{flex-wrap: wrap;}
+            .skipcont{
+                background-color: #c80707;
+                padding: 5px;
+                border: 1px solid #000000;
+                position: absolute;
+                top: 30px;
+                left: -999px; 
+                /*pushes it off screen*/
+            }
+
+            .skipcont:focus{
+                left: 10px;
+            }   
+            .skipcont{
+                color: #ffffff
+            }
+            .skipcont:hover{
+                color: #000000;
+            }
+            .skipcont:visited{
+            color: #ebaa87;
+            }
+            </style>
+        <link rel="stylesheet" href="../lab10/stylessheet.css">
+    </head>
+    <body>
+        <a href="#content" class="skipcont" tabindex="1">Skip to Content</a><br>
+        
+        <nav>
+            <a href="https://jvarga01-su.github.io/ist263/lab11/" tabindex="2">Home</a> <span>|</span>
+            <a href="https://jvarga01-su.github.io/ist263/lab11/skills.html" tabindex="3">Skills</a> <span>|</span>
+            <a href="https://jvarga01-su.github.io/ist263/lab11/contact.html" tabindex="4">Contact</a>
+        </nav>
+
+        <h1 class="title">Skills</h1>
+        <p class="sen" id="content">My skills page shows a variety of different categories and my level of expertise in them. </p>
+        
+        <div class="row1">
+            <div class="skills">
+                <div class="ball">
+                    <img src="../Images/ball.png" alt="baskeball" width="50" length="50">
+                    <p>Basketball</p><br>
+                </div>
+                <div class="money">
+                    <img src="../Images/money.png" alt="monet bill" width="50" length="50">
+                    <p>Trading</p><br>
+                </div>
+                <div class="dj">
+                    <img src="../Images/dj.png" alt="DJ CD" width="50" length="50">
+                    <p>DJing</p><br>
+                </div>
+                <div class="car">
+                    <img src="../Images/car.png" alt="car" width="50" length="50">
+                    <p>Driving</p><br>
+                </div>
+                <div class="time">
+                    <img src="../Images/time.png" alt="clock" width="50" length="50">
+                    <p>Time Management</p><br>
+                </div>
+            </div>
+        
+
+            <div class="flex2">
+                <aside class="oskills">
+                    <h2>Other Skills</h2>
+                    <p>Math</p>
+                    <p>Cooking</p>
+                    <p>Perfectionist</p>
+                    <p>Problem Solving</p>
+                </aside>
+            </div>
+        </div>
+        
+        <!--<table>
+             
+            <caption>Skills</caption>
+            <tr>  tr means row 
+                <th>Category</th>
+                <th>Skill</th>
+                <th>Level (1-3)</th>
+                
+               
+            </tr>
+            <tr class= "special">
+                <td>School</td>
+                <td>Math</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>School</td>
+                <td>Time Mangement</td>
+                <td>3</td>
+            </tr>
+            <tr class= "special">
+                <td>Life</td>
+                <td>Trading</td>
+                <td>3</td>
+            </tr>
+          
+            <tr>
+                <td>Life</td>
+                <td>Driving</td>
+                <td>3</td>
+            </tr>
+            <tr class= "special">
+                <td>Life</td>
+                <td>DJing</td>
+                <td>2.5</td>
+            </tr>
+            
+            <tr>
+                <td>Life</td>
+                <td>Cooking</td>
+                <td>2</td>
+            
+            </tr>
+            <tr class= "special">
+                <td>Life</td>
+                <td>Basketball</td>
+                <td>2</td>
+                
+            </tr>
+            <tr >
+                <td>Work</td>
+                <td>Project Mangement</td>
+                <td>3</td>
+            </tr>
+            <tr class= "special">
+
+                <td>Work/School/Life</td>
+                <td>Perfectionist</td>
+                <td>2</td>
+                
+            </tr>
+            <tr>
+                <td>Work/School/Life</td>
+                <td>Problem Solving</td>
+                <td>3</td> 
+            </tr>
+        </table>-->
+    </body>
+</html>

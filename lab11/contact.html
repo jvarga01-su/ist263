@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+       <title>Contact</title>
+       <h1> Contact </h1>
+       <style>
+
+            .row1{
+                
+                padding:0%;
+                background-color: lightgreen;
+                border-radius: 1em;
+                margin: 30px; 
+                }
+            .row2{
+                padding:0%;
+                background-color: #cce5ff;
+                border-radius: 1em;
+                margin: 30px;
+                flex-wrap: wrap;
+                }
+            
+            
+            .row2{
+                flex-wrap: wrap;
+                margin: 15px;
+                }
+
+            .row1{
+                flex-wrap:wrap;
+                margin: 15px;
+                }
+            
+
+            .text{
+                flex-wrap: wrap;
+                margin: 15px;
+            }
+            .skipcont{
+                background-color: #c80707;
+                padding: 5px;
+                border: 1px solid #000000;
+                position: absolute;
+                top: 30px;
+                left: -999px; 
+                /*pushes it off screen*/
+            }
+
+            .skipcont:focus{
+                left: 10px;
+            }   
+            .skipcont{
+                color: #ffffff
+            }
+            .skipcont:hover{
+                color: #000000;
+            }
+            .skipcont:visited{
+            color: #ebaa87;
+            }
+
+        </style>
+       <link rel="stylesheet" href="../lab10/stylessheet.css">
+   </head>
+
+   <body>
+    <a href="#content" class="skipcont" tabindex="1">Skip to Content</a><br>
+
+    <nav>
+        <a href="https://jvarga01-su.github.io/ist263/lab10/" tabindex="2">Home</a> <span>|</span>
+        <a href="https://jvarga01-su.github.io/ist263/lab10/skills.html" tabindex="3">Skills</a> <span>|</span>
+        <a href="https://jvarga01-su.github.io/ist263/lab10/contact.html" tabindex="4">Contact</a>
+    </nav>
+
+        <div id = "content" class="row1">
+            <div class="addy"> <h2><strong>Address:</strong></h2>
+                Syracuse University<br> 
+                900 South Crouse Ave. <br>
+                Syracuse, NY 13244
+            </div>       
+            <div class="email"><h4> Email:</h4>
+                <a href="mailto:jvarga01@syr.edu" tabindex="5">Jaime Vargas Email</a>
+                <h3> Click on Logo for my LinkedIn Profile!</h3>
+                <a href="https://www.linkedin.com/in/jaimedvargas/">
+                    <img src= "../Images/logo.szd.png" alt="linked in logo"></a><br>
+            </div>
+            
+        </div>
+        
+        <div class="row2">
+            <div class="input">
+                <h3>Message Me!</h3>
+                <form action="https://formspree.io/f/mzbwrrbr" method="post">
+                <label for="fname" tabindex="6">First name:</label><br>
+                <input type="text" tabindex="7" id="fname" name="fname"><br>
+                <label for="lname" tabindex="8">Last name:</label><br>
+                <input type="text" tabindex="9" id="lname" name="lname"><br>
+                <label for="email">Email:</label><br>
+                <input type="text" tabindex="10" id="email" name="email"><br>
+
+                <p>Age:</p>
+                <input type="radio" id="age1" name="age" value="-18">
+                <label for="age1" tabindex="11">-18</label><br>
+
+                <input type="radio" id="age2" name="age" value="19-64">
+                <label for="age2" tabindex="12">19-64</label><br>
+                <input type="radio" id="age3" name= "age" value="65+">
+                <label for="age3" tabindex="13">65+</label><br>
+
+                <label for="message">Message:</label><br>
+                <input type="text" id="message" name="message"><br>
+                <p> Click on the submit button below to send message!</p>
+                <input type="submit" tabindex="14" value="Submit"><br></form>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.1082723585873!2d-76.1373044845329!3d43.03915337914714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39fba2ccc55%3A0x5e6089065251084d!2sSyracuse%20University!5e0!3m2!1sen!2sus!4v1663258241417!5m2!1sen!2sus"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+   </body>
+</html>
