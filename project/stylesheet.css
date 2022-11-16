@@ -1,0 +1,15 @@
+h1, h2, h3{
+    color: #037503;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+.botnav{
+    padding:10px;
+    background-color: #adc7ff71;
+    border-radius: 1em;
+     }
