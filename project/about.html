@@ -9,6 +9,12 @@
 
     
     <style>
+        .toptitle{
+            padding: 10px;
+            border: 2px solid #037503;
+            text-align: center;
+            border-radius: 100px;
+        }
         .indextrading{
             padding: 10px;
             background-color: #eaeaeab5;
@@ -65,37 +71,82 @@
         .qt{
             float: right;
             }
+        .monicon{
+            display: block;
+            margin-left: auto;
+            margin-right: auto }
 
+        .botnav{   
+            padding: 10px;
+            border: 2px solid #037503;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto 
+        }  
+        .row1, .row3 {
+            display: flex;
+        }
+        .us30 {
+            float:left;
+        }
+        .indextrading, .tradingview {
+            float:right;
+        }
+        .bene, .mt4 {
+            text-align: center;
+        }
+
+        .navi {
+            display: flex;
+            flex-wrap: wrap;
+            color: #000000;
+            padding: 10px;
+            border: 2px solid #037503;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #adc7ff71;
+            border-radius: 100px;
+            width: fit-content;
+            margin-top: 8px;
+        }
+     
 
     </style>
 </head>
 <body>
-    <h1> Jaime Vargas Trading Course </h1>
-    <nav>
-        <a href="../project/about.html">About</a> |
-        <a href="../project/tradingstg.html">Trading Stratergy</a> |
-        <a href="../project/tdpsy.html">Trading Psychology</a> |
-        <a href="../project/contact.html">Contact</a> 
-    </nav>
+    <div class="toptitle"> <h1> Jaime Vargas Trading Course </h1></div>
+    <div class="navi">
+        <nav>
+            <a href="../project/about.html">About</a> |
+            <a href="../project/tradingstg.html">Trading Stratergy</a> |
+            <a href="../project/tdpsy.html">Trading Psychology</a> |
+            <a href="../project/contact.html">Contact</a> 
+        
+        </nav>
+    </div>
     
     <div class="topbanner">
-        <img src="../projectimages/Bio-banner.jpg" alt="top banner">
+        <img src="../projectimages/Bio-banner.jpg" alt="top banner" width="2000" height="500">
     </div>
 
     <div class = "row1">
+
        <div class="indextrading">
-        <h2><strong>What is Index Trading?</strong></h2>
-        <p><strong>Index Trading </strong> looks at the performance of a group of popular stocks and predicts whether their value will continue to rise in price or fall. This way of trading allows people to invest in multiple companies instead of just one. </p>
+            <h2><strong>What is Index Trading?</strong></h2>
+            <p><strong>Index Trading </strong> looks at the performance of a group of popular stocks and predicts whether their value will continue to rise in price or fall. This way of trading allows people to invest in multiple companies instead of just one. </p>
        </div>
+
        <div class="us30">
-        <h2><strong>What is US30?</strong></h2>
-        <p><strong>US30 </strong> also known as the Dow is a group of 30 diversified well-known companies in the US pooled together into one index. These popular companies hold different weights in the index and when the price of one company drops so does the performance of US30. For example, Apple is a popular company that will hold more weight in this index than another company, let's say the price of Apple drops one day. This will negatively affect the performance of the entire index or US30 because Apple holds a bigger value in the index. People benefit from trading US30 because it is less risky than trading individual stocks.</p>
+            <h2><strong>What is US30?</strong></h2>
+            <p><strong>US30 </strong> also known as the Dow is a group of 30 diversified well-known companies in the US pooled together into one index. These popular companies hold different weights in the index and when the price of one company drops so does the performance of US30. For example, Apple is a popular company that will hold more weight in this index than another company, let's say the price of Apple drops one day. This will negatively affect the performance of the entire index or US30 because Apple holds a bigger value in the index. People benefit from trading US30 because it is less risky than trading individual stocks.</p>
        </div>
+
     </div>
     
     <div class = "row2">
         <div class="benefits">
-            <h2>Benefits</h2>
+            <h2 class="bene">Benefits</h2>
             <table>
                 <tr class="trbkc">
                     <th><strong>Buy or Sell :</strong></th>
@@ -119,28 +170,31 @@
      </div>
 
      <div class="midbanner">
-        <img src="../projectimages/tradingview.jpg" alt = "middle banner" width="600" height="400">
+        <img src="../projectimages/tradingview.jpg" alt = "middle banner" width="2000" height="450">
     </div>
 
     <div class = "row3">
+
         <div class="tradingview">
             <h2>What is Tradingview?</h2>
             <p><strong>Tradingview </strong> is a cloud-based software that allows you to see charts, research, and strategy analysis. It is important to look at the charts and research of an index as it informs you on the trajectory of the index’s performance. This software is easy to use and allows people to make informed decisions before placing a trade. Without a software like this it might be challenging to find all the information you need before making a trade as you would have to navigate different websites and pay several fees. Trading view lets you save all this information in one place using a free account. </p>
         </div>
+
         <div class="mt4">
             <h2>What is MetaTrader 4?</h2>
             <p><strong>Meta Trader 4 </strong> is a trading platform that allows people to place orders (buy/sell), view charts live time, and insert and withdraw money. Many traders enjoy this platform because it is very accessible, user friendly, and it allows you to customize your trading environment as you would like. This is an app as well as a computer software that you can access anywhere and anytime, all you would need is either internet or WIFI to make trades or view the market.</p>
         </div>
+
     </div>
     
     <div class="botbanner">
-        <img src="../projectimages/sell-buy.jpg" alt = "bottom banner" width="500" height="400">
+        <img src="../projectimages/sell-buy.jpg" alt = "bottom banner" width="2000" height="450">
     </div>
 
         <div>
             <h3 class="botnav"> Click on money bag to learn how to trade this market!</h3>
             <a href="https://jvarga01-su.github.io/ist263/project/tradingstg.html">
-            <img alt="Logo link" src= "../projectimages/sack-dollar-solid.svg" width="100" height="175"></a><!--Money bag icon that navigates to second page-->
+            <img class= monicon alt="Logo link" src= "../projectimages/sack-dollar-solid.svg" width="100" height="175"></a><!--Money bag icon that navigates to second page-->
         </div>
          <footer>
             <hr>
@@ -148,5 +202,6 @@
                 <p class="qt">“It is not the strongest or the most intelligent who will survive but those who can best manage change.”
                 – Charles Darwin</p>
         </footer>
+        
 </body>
 </html>
