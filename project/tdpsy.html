@@ -20,26 +20,69 @@
             border-radius: 1em;
             margin: 10px;
             }
+
+            .skipcont{
+        background-color: #91d891;
+        padding: 5px;
+        border: 1px solid #000000;
+        position: absolute;
+        top: 30px;
+        left: -999px; /*pushes it off screen*/
+        }
+
+        .skipcont:focus{
+            left: 10px;
+        }
+        .navi {
+            display: flex;
+            flex-wrap: wrap;
+            color: #000000;
+            padding: 10px;
+            border: 2px solid #037503;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #adc7ff71;
+            border-radius: 100px;
+            width: fit-content;
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+
+        .psycontent{
+            display: flex;
+        }
+
+        .tips{
+            float: right;
+            }
+            .psy{float: left;}
+
+        .sidebanner{
+            text-align: center;
+        }
+
     </style>
 
 </head>
 <body>
     <h1> Trading Psychology </h1>
-    <div class="navi">
-        <nav>
-            <a href="../project/index.html">About</a> |
-            <a href="../project/tradingstg.html">Trading Stratergy</a> |
-            <a href="../project/tdpsy.html">Trading Psychology</a> |
-            <a href="../project/contact.html">Contact</a> 
-        
-        </nav>
-    </div>
+    
+        <div class="navi">
+            <nav>
+                <a href="../project/index.html"tabindex="2">About</a> |
+                <a href="../project/tradingstg.html" tabindex="3">Trading Stratergy</a> |
+                <a href="../project/tdpsy.html" tabindex="4">Trading Psychology</a> |
+                <a href="../project/contact.html" tabindex="5">Contact</a> 
+            
+            </nav>
+        </div>
 
     <div class="sidebanner">
-        <img src="../projectimages/running.jpg" alt="side banner" width="400" height="300">
+        <img src="../projectimages/running.jpg" alt="side banner" width="400" height="300" >
     </div>
 
-    <div>
+    <div class="psycontent">
         <div class="psy">
             <h2>Psychology</h2>
             <p>Index trading takes more than perfecting the skill of analyzing charts and doing research on how companies are performing. There is also a huge psychological effect that plays a role on your success as a trader. It is crucial to have a healthy mentality when it comes to trading and practice self-discipline. Many people are afraid of stocks and trading because they think it is like gambling. Just as you see success in trading indexes you can also see massive losses when you get overconfident and overplay your hand. It is important to do your research before placing any trade and to step away and not obsess over how else you can make more money. You should view the market and trading as a skill to get you to reach your goals, not an addiction like gambling or the lottery.</p>
@@ -49,6 +92,11 @@
             <p>It is important to stick to a routine when you are trading. Have a balanced life and you will see massive success in your actions. For example, every day you should do something for both your mental and physical health. This can look like waking up and meditating for 5-10 minutes or journaling. These routines help declutter your mind from all the thoughts that are running through 24 hours a day. It is also important to engage in some type of physical exercise whether it is going on a run or lifting some weights. Physical exercise helps your body relieve stress and even helps your brain stay healthy and motivated. I would also recommend having a “why” or a purpose for doing this. When you know that there is a purpose behind working hard in trading, you stay on the path of being focused and not becoming selfish and only thinking about making more money for yourself.</p>
         </div>
     </div>
-    
+    <footer>
+        <hr>
+            <p class="bot">&copy; 2022</p>
+            <p class="qt">“It is not the strongest or the most intelligent who will survive but those who can best manage change.”
+            – Charles Darwin</p>
+    </footer>
 </body>
 </html>
