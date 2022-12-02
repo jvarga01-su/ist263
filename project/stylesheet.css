@@ -6,7 +6,10 @@ img {
     max-width: 100%;
     height: auto;
     width: auto\9; /* ie8 */
-}
+    border: 5px solid #037503;
+    /* margin-left: 10px; */
+
+    }
 
 .botnav{
     padding:10px;
@@ -17,34 +20,13 @@ img {
 
  
     
-    @media only screen and (max-width: 600px) {
-        body {background-color:#c1c1c18e;}
-        p {color:#000000;}
-        .row1{margin: 10px;}
-        .banner{display: none;}
-    
-    nav, a {
-        display: block;
-        size-adjust: 100%;
-        padding: 10px;
-    }
-    .row1, .row3 {
-        display: block;
-        size-adjust: 100%;
-        padding: 10px;
-    }
-    .span {
-        display: none;
-    }}
+
     @media only screen and (min-width:1000px){
         body{background-color: #a8d9f9b9;}
         p{color:#000000;}
     }
 
-    img {
-        border: 5px solid #037503;
-        margin-left: 10px;
-        }
+
 
         @media only screen and (max-width: 600px) {
             body {background-color:#c1c1c18e;}
