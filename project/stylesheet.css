@@ -5,10 +5,9 @@ h1, h2, h3{
 img {
     max-width: 100%;
     height: auto;
-    width: auto\9; /* ie8 */
+    width: auto/9; /* ie8 */
     border: 5px solid #037503;
-    /* margin-left: 10px; */
-
+    margin-left: -5px;
     }
 
 .botnav{
@@ -68,3 +67,10 @@ img {
         width: fit-content;
         margin-top: 8px;
     }
+
+    .bot{
+        float: left ;
+         }
+    .qt{
+        float: right;
+        }
