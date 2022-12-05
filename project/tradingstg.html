@@ -51,20 +51,6 @@
             margin-left: auto;
             margin-right: auto 
         }  
-        .navi {
-            display: flex;
-            flex-wrap: wrap;
-            color: #000000;
-            padding: 10px;
-            border: 2px solid #037503;
-            text-align: center;
-            margin-left: auto;
-            margin-right: auto;
-            background-color: #adc7ff71;
-            border-radius: 100px;
-            width: fit-content;
-            margin-top: 8px;
-        }
 
         .sidebanner{
             float: right;
@@ -74,10 +60,26 @@
             text-align: center;
         }
 
+        .skipcont{
+        background-color: #91d891;
+        padding: 5px;
+        border: 1px solid #000000;
+        position: absolute;
+        top: 30px;
+        left: -999px; /*pushes it off screen*/
+        }
+        img{
+            margin: 1em;
+        }
+
     </style>
     
 </head>
 <body>
+    <div class="toptitle"> <h1> Jaime Vargas Trading Course </h1></div>
+    <div>
+        <a href="#content" class="skipcont" tabindex="1">Skip to Content</a><br>
+    </div>
     <h1> Trading Strategy </h1>
     <div class="navi">
         <nav>   
@@ -88,7 +90,7 @@
         </nav>
     </div>
 
-        <div class="tradinglaw">
+        <div class="tradinglaw" id="content">
             <div class="sidebanner">
                 <img src="../projectimages/man.jpg" alt="side banner" width="450" height="300">
              </div>
