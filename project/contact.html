@@ -60,6 +60,15 @@
         .respondtime{
             font:small-caps;
         }
+        
+        .skipcont{
+        background-color: #91d891;
+        padding: 5px;
+        border: 1px solid #000000;
+        position: absolute;
+        top: 30px;
+        left: -999px; /*pushes it off screen*/
+        }
 
     </style>
     
@@ -94,25 +103,25 @@
                 <h3>Message Me!</h3>
                 <p class="respondtime">I will make it my best to respond your message or questions in less than 24 hours. Keep an eye out on your email. </p>
                 <form action="https://formspree.io/f/mzbwrrbr" method="post">
-                            <label for="fname">First name:</label><br>
-                            <input type="text" id="fname" name="fname"><br>
+                            <label for="fname" >First name:</label><br>
+                            <input type="text" id="fname" name="fname" tabindex="6"><br>
                             <label for="lname">Last name:</label><br>
-                            <input type="text" id="lname" name="lname"><br>
+                            <input type="text" id="lname" name="lname" tabindex="7"><br>
                             <label for="email">Email:</label><br>
-                            <input type="text" id="email" name="email"><br>
+                            <input type="text" id="email" name="email" tabindex="8"><br>
 
                         <p>Age:</p>
-                            <input type="radio" id="age1" name="age" value=" -18">
+                            <input type="radio" id="age1" name="age" value=" -18" tabindex="9">
                             <label for="age1">-18</label><br>
 
-                            <input type="radio" id="age2" name="age" value="19-64">
+                            <input type="radio" id="age2" name="age" value="19-64" tabindex="10">
                             <label for="age2">19-64</label><br>
-                            <input type="radio" id="age3" name="age" value=" 65+">
+                            <input type="radio" id="age3" name="age" value=" 65+" tabindex="11">
                             <label for="age3">65+</label><br>
 
                             <label for="message">Message:</label><br>
-                            <input type="text" id="message" name="message"><br>
-                            <input type="submit" value="Submit"><br>
+                            <input type="text" id="message" name="message" tabindex="12"><br>
+                            <input type="submit" value="Submit" tabindex="13"><br>
                 </form>
             </div>
         </div>

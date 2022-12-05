@@ -47,6 +47,7 @@ img {
             display: none;
         }
        #bra{display: none;}
+    
     }
         @media only screen and (min-width:1000px){
             body{background-color: #a8d9f9b9;}
@@ -74,7 +75,7 @@ img {
         float: right;
         }
 
-        .toptitle{
+         .toptitle{
             padding: 10px;
             border: 2px solid #037503;
             text-align: center;
@@ -89,5 +90,7 @@ img {
             top: 30px;
             left: -999px; /*pushes it off screen*/
             }
-
-            
+    
+            .skipcont:focus{
+                left: 10px;
+            }
