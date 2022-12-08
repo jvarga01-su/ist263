@@ -1,5 +1,6 @@
 h1, h2, h3{
     color: #037503;
+    font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 img {
@@ -94,3 +95,6 @@ img {
             .skipcont:focus{
                 left: 10px;
             }
+
+            p , ul {font-family: 'Albert Sans', sans-serif;}
+
